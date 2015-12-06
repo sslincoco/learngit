@@ -1,0 +1,227 @@
+<!DOCType <!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html charset=utf-8" >
+	<title>PC 页面练习4</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".nav_box ul li").mouseover(function(){
+			$(this).find("a1").addClass("hover");
+			$(this).find("ul").show();
+
+		});
+
+
+		$(".nav_box ul li").mouseout(function(){
+			$(this).find("a1").removeClass("hover");
+			$(".banner").find("img").css("margin-top","0px")
+			$(this).find("ul").hide();
+		});
+	})
+
+	</script>
+</head>
+<body>
+	<div class="top">
+		<div class="top_box">
+			<a class="logo" href="#"><img src="images/logo_02.jpg"></a> 
+			<div class="right">
+				<ul>
+					<li>设为首页</li>
+					<li class="br">加入收藏</li>
+				</ul>
+				
+			</div>	
+		</div>	
+	</div>
+
+	<div class="nav">
+	<div class="nav_box">
+		<ul>
+			<li ><a href="javascript:;" class="a1 a2">首页</a></li>
+			<li><a href="javascript:;" class="a1 a2">集团介绍</a>
+				<ul>
+					<li><a href="javascript:;">集团简介</a></li>
+					<li><a href="javascript:;">董事长致辞</a></li>
+					<li><a href="javascript:;">组织架构</a></li>
+					<li><a href="javascript:;">公司荣誉</a></li>
+					<li><a href="javascript:;">项目荣誉</a></li>
+
+				</ul>
+			</li>
+			<li><a href="javascript:;" class="a1 a2">五经新闻</a>
+				<ul>
+					<li><a href="javascript:;">集团简介</a></li>
+					<li><a href="javascript:;">董事长致辞</a></li>
+					<li><a href="javascript:;">组织架构</a></li>
+					<li><a href="javascript:;">公司荣誉</a></li>
+					<li><a href="javascript:;">项目荣誉</a></li>
+				</ul>
+			</li>
+			<li><a href="javascript:;" class="a1 a2">项目展示</a>
+				<ul>
+						<li><a href="javascript:;">集团简介</a></li>
+						<li><a href="javascript:;">组织架构</a></li>
+						<li><a href="javascript:;">公司荣誉</a></li>
+						<li><a href="javascript:;">项目荣誉</a></li>
+				</ul>	
+			</li>
+			<li><a href="javascript:;" class="a1 a2">品牌文化</a></li>
+			<li><a href="javascript:;" class="a1 a2">人力资源</a></li>
+			<li><a href="javascript:;" class="a1 br">联系我们</a></li>   
+		</ul>
+		<div class="search">
+			<a href="javascript:;" class="icont"></a>
+			<input type="text" class="text" />
+		</div>
+		
+	</div>
+	</div>
+	<div class="banner"><img src="images/banner_06.jpg" width="100%" height="100%"></div>
+	<div class="news_box">
+		<span><img src="images/jt_07.jpg"></span>
+		<p class="title">五经集团公司创始于1998年，经过15年的励精图治</p>
+		<span class="time">2015.12.04</span>
+		<div class="news_right">
+			<span class="active">公司新闻</span>
+			<span>媒体报道</span>
+			<span>行业动态</span>
+			<span>CL资讯</span>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="content_box">
+		<ul class="about">
+			<li class="show">
+				<span class="li_title">集团简介1<i>About us</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">五经集团公司创始于1998年，经过15年的励精图治，实现了飞速发展和巨大跨越。形成以资本为纽带，以实业为核心的承包、承建、开发、销售……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>
+			</li>
+			<li>
+				<span class="li_title">集团简介2<i>About us</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">五经集团公司创始于1998年，经过15年的励精图治，实现了飞速发展和巨大跨越。形成以资本为纽带，以实业为核心的承包、承建、开发、销售……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>
+			</li>
+			<li>
+				<span class="li_title">集团简介3<i>About us</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">五经集团公司创始于1998年，经过15年的励精图治，实现了飞速发展和巨大跨越。形成以资本为纽带，以实业为核心的承包、承建、开发、销售……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>
+			</li>
+		</ul>
+		<ul class="project">
+			<li class="show">
+				<span class="li_title">项目动态<i>Project News</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">五经·山水大观是五经集团致力开发的天工山水湖居大盘，也是广东省首座CL建筑低碳•节能•抗震的国家级项目。位于仲恺高新区中心位置与世界五百大高端产业为邻……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>
+			</li>
+			<li>
+				<span class="li_title">项目动态<i>Project News</i></span>
+				<span><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">五经·山水大观是五经集团致力开发的天工山水湖居大盘，也是广东省首座CL建筑低碳•节能•抗震的国家级项目。位于仲恺高新区中心位置与世界五百大高端产业为邻……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>
+			</li>
+			<li>
+				<span class="li_title">项目动态<i>Project News</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">五经·山水大观是五经集团致力开发的天工山水湖居大盘，也是广东省首座CL建筑低碳•节能•抗震的国家级项目。位于仲恺高新区中心位置与世界五百大高端产业为邻……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>
+			</li>
+		</ul>
+		<ul class="brand">
+			<li class="show">
+				<span class="li_title">品牌文化<i>Brand Culture</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">15年来，公司始终坚持以诚信为本，注重质量、服务社会的品牌意识为最终理念。秉承“立足社会、服务社会、回报社会”的企业宗旨；确立了以诚为本……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>				
+			</li>
+			<li>
+				<span class="li_title">品牌文化<i>Brand Culture</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">15年来，公司始终坚持以诚信为本，注重质量、服务社会的品牌意识为最终理念。秉承“立足社会、服务社会、回报社会”的企业宗旨；确立了以诚为本……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>				
+			</li>
+			<li>
+				<span class="li_title">品牌文化<i>Brand Culture</i></span>
+				<span class="img"><img src="images/imggg_03.jpg"></span>
+				<p class="li_content">15年来，公司始终坚持以诚信为本，注重质量、服务社会的品牌意识为最终理念。秉承“立足社会、服务社会、回报社会”的企业宗旨；确立了以诚为本……</p>
+				<span class="more"></span><a href="#" class="M">MORE</a>				
+			</li>
+		</ul>
+
+		<div class="footer"></div>
+			
+			 
+		</div>
+	</div>
+
+	<div class="footer">
+	<div class="footer_box">
+		<div class="footer_nav">
+			<ul class="info">
+				<li>集团介绍</li>
+				<li>五经新闻</li>
+				<li>项目展示</li>
+				<li>品牌文化</li>
+				<li>人力资源</li>
+			</ul>
+			<div class="contact_right">联系我们</div>
+		</div>
+
+		<ul class="navul">
+			<li>
+				<ol>
+					<li>集团简介</li>
+					<li>董事长致辞</li>
+					<li>组织架构</li>
+					<li>公司荣誉</li>
+					<li>项目荣誉</li>
+				</ol>	
+			</li>
+			<li>
+				<ol>
+					<li>公司新闻</li>
+					<li>媒体报道</li>
+					<li>行业动态</li>
+					<li>CL资讯</li>
+				</ol>	
+			</li>
+			<li>
+				<ol>
+					<li>山水大观</li>
+					<li>博罗项目</li>
+					<li>组织架构</li>
+					<li>深圳项目</li>
+					<li>泉州项目</li>
+				</ol>	
+			</li>
+			<li>
+				<ol>
+					<li>VI释义</li>
+					<li>品牌理念</li>
+					<li>公益事业</li>
+					<li>广告欣赏</li>
+				</ol>	
+			</li>
+ 
+			<li>
+				<ol>
+					<li>人才理念</li>
+					<li>社会招聘</li>
+				</ol>	
+			</li>
+
+		</ul>
+	</div>
+		
+	</div>
+	<div class="gs">五经集团公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有</div><br /><br />
+
+</body>
+</html>
